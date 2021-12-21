@@ -6,7 +6,7 @@ node('master')
 	}
    stage('Continuousbuild_loans')
          {
-   sh label: '', script: 'mvn package'
+ echo  :'mvn package'
         }
 
    }
